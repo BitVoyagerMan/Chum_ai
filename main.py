@@ -3,7 +3,6 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-
 image_urls = [
 "https://f.nooncdn.com/p/v1640197227/N11042130A_1.jpg",
 "https://mcprod.jumbo.ae/media/catalog/product/s/n/sn23hi26mm.jpg",
@@ -74,7 +73,7 @@ print(images)
 import keras.utils as image
 import numpy as np
 
-# Resize images to 224x224 and convert to array
+# Resize images to 224 x 224 and convert to array
 processed_images = np.array([image.img_to_array(img.resize((224, 224))) for img in images])
 
 # Perform model-specific preprocessing (centering, color normalization, etc.)

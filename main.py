@@ -2,7 +2,7 @@ import pandas as pd
 from PIL import Image
 import requests
 from io import BytesIO
-//start
+
 image_urls = [
 "https://f.nooncdn.com/p/v1640197227/N11042130A_1.jpg",
 "https://mcprod.jumbo.ae/media/catalog/product/s/n/sn23hi26mm.jpg",
